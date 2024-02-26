@@ -35,8 +35,8 @@ API_HASH = environ.get("API_HASH", "8ab4a0d75eec6fe40b85144c2c0ff418")
 ADMINS = int(environ.get("ADMINS", "1595465271"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://joni:joni2024@cluster0.5kijbcp.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "joni")
 DB_URI = environ.get("DB_URI", "mongodb+srv://joni:joni2024@cluster0.5kijbcp.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "joni")
 
@@ -45,7 +45,7 @@ DB_NAME = environ.get("DB_NAME", "joni")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "6791878384:AAHpn5UAWzQ3gi9oolKDKXBpHVn5Es-Jnek")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BOT_USERNAME = environ.get("BOT_USERNAME", "dm_mk_filter_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
